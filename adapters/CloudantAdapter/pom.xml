@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- MobileFirst adapter deployment properties -->
-		<mfpfUrl>http://mobilefoundation-businessconnect-li-server.mybluemix.net/mfpadmin</mfpfUrl>
+		<mfpfUrl>http://mobilefoundation-businessconnect-li-server.mybluemix.net:80/mfpadmin</mfpfUrl>
 		<mfpfUser>admin</mfpfUser>
 		<mfpfPassword>mobilefirst</mfpfPassword>
 		<mfpfRuntime>mfp</mfpfRuntime>
