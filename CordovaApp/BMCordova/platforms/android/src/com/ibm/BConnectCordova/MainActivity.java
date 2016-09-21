@@ -1,4 +1,4 @@
-package io.cordova.hellocordova;
+package com.ibm.BConnectCordova;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

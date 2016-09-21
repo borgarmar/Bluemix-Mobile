@@ -30,11 +30,11 @@
 		171A0A5A868A4856A7721735 /* libc++.tbd in Resources */ = {isa = PBXBuildFile; fileRef = E79B85DF18B34888A2B97388 /* libc++.tbd */; };
 		50F0C440E407487497B5B78D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD5090D18F64B07AEE2F471 /* Security.framework */; };
 		9D0DAADCCA1B46909FD6935D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A1798996764130AD3E475C /* SystemConfiguration.framework */; };
-		078EB85C70D24C8FBE3CE034 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */; };
-		6CAE0F3A2D4D4B9EB358A419 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4634DFB45DF744A9AAD9F7C9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
-		9024C2B8D95740ED888B76A6 /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */; };
-		5E8C097D876B422397AC6526 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F92976FE3CE4589B009D221 /* sqlcipher.framework */; };
+		2E2591DD9B934D64BC006362 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCBC6119CED4C909AC9C83D /* IBMMobileFirstPlatformFoundation.framework */; };
+		2E97D47AE7334C8691D7D1B6 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCBC6119CED4C909AC9C83D /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C79C20BAB7374EB4B6D5D392 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FB1A441B941ADADD9E2C6 /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		A8828EC8945748C3BBB1CA5B /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E6F5BF2E54A919B6860E2 /* IBMMobileFirstPlatformFoundationJSONStore.framework */; };
+		BFAEB12E2C794BD59EC2EF80 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A75ED5136F4AB0B7B28A2D /* sqlcipher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "BConnect/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "BConnectCordova/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* BConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BConnect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* BConnectCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BConnectCordova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -68,11 +68,11 @@
 		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
-		32CA4F630368D1EE00C91783 /* BConnect-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BConnect-Prefix.pch"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* BConnect-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BConnect-Info.plist"; path = "BConnect/BConnect-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* BConnectCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BConnectCordova-Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BConnectCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BConnectCordova-Info.plist"; path = "BConnectCordova/BConnectCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "BConnect/config.xml"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "BConnectCordova/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		E009E2E743744A8EA7C39422 /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		73A999DDB86F46D8A909507C /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
@@ -93,10 +93,10 @@
 		E79B85DF18B34888A2B97388 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "libc++.tbd"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2BD5090D18F64B07AEE2F471 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		B0A1798996764130AD3E475C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationJSONStore.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationJSONStore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		5F92976FE3CE4589B009D221 /* sqlcipher.framework */ = {isa = PBXFileReference; name = "sqlcipher.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/sqlcipher.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4DCBC6119CED4C909AC9C83D /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "BConnectCordova/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D59FB1A441B941ADADD9E2C6 /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "BConnectCordova/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1A8E6F5BF2E54A919B6860E2 /* IBMMobileFirstPlatformFoundationJSONStore.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationJSONStore.framework"; path = "BConnectCordova/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationJSONStore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C9A75ED5136F4AB0B7B28A2D /* sqlcipher.framework */ = {isa = PBXFileReference; name = "sqlcipher.framework"; path = "BConnectCordova/Plugins/cordova-plugin-mfp/sqlcipher.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,10 @@
 				171A0A5A868A4856A7721735 /* libc++.tbd in Resources */,
 				50F0C440E407487497B5B78D /* Security.framework in Frameworks */,
 				9D0DAADCCA1B46909FD6935D /* SystemConfiguration.framework in Frameworks */,
-				078EB85C70D24C8FBE3CE034 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
-				4634DFB45DF744A9AAD9F7C9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
-				9024C2B8D95740ED888B76A6 /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */,
-				5E8C097D876B422397AC6526 /* sqlcipher.framework in Frameworks */,
+				2E2591DD9B934D64BC006362 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				C79C20BAB7374EB4B6D5D392 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
+				A8828EC8945748C3BBB1CA5B /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */,
+				BFAEB12E2C794BD59EC2EF80 /* sqlcipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,13 +131,13 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "BConnect/Classes";
+			path = "BConnectCordova/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* BConnect.app */,
+				1D6058910D05DD3D006BFB54 /* BConnectCordova.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,12 +162,12 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* BConnect-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* BConnectCordova-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
 			);
 			name = "Other Sources";
-			path = "BConnect";
+			path = "BConnectCordova";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -175,7 +175,7 @@
 			children = (
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
-				8D1107310486CEB800E47090 /* BConnect-Info.plist */,
+				8D1107310486CEB800E47090 /* BConnectCordova-Info.plist */,
 				246FDECAECBB443BB999B089 /* CDVNotification.bundle */,
 				DDB6519C594643AFB0768ED0 /* Localizations.bundle */,
 				989C4970AD134594A7CBC162 /* Entitlements-Debug.plist */,
@@ -183,7 +183,7 @@
 				92DBDBF2BE3645EFABF231A0 /* mfpclient.plist */,
 			);
 			name = Resources;
-			path = "BConnect/Resources";
+			path = "BConnectCordova/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -195,10 +195,10 @@
 				E79B85DF18B34888A2B97388 /* libc++.tbd */,
 				2BD5090D18F64B07AEE2F471 /* Security.framework */,
 				B0A1798996764130AD3E475C /* SystemConfiguration.framework */,
-				66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */,
-				A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */,
-				E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */,
-				5F92976FE3CE4589B009D221 /* sqlcipher.framework */,
+				4DCBC6119CED4C909AC9C83D /* IBMMobileFirstPlatformFoundation.framework */,
+				D59FB1A441B941ADADD9E2C6 /* IBMMobileFirstPlatformFoundationHybrid.framework */,
+				1A8E6F5BF2E54A919B6860E2 /* IBMMobileFirstPlatformFoundationJSONStore.framework */,
+				C9A75ED5136F4AB0B7B28A2D /* sqlcipher.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 				8B5F55E024C04ABEB4E1E107 /* MFPAppDelegate.h */,
 			);
 			name = Plugins;
-			path = "BConnect/Plugins";
+			path = "BConnectCordova/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* BConnect */ = {
+		1D6058900D05DD3D006BFB54 /* BConnectCordova */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BConnect" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BConnectCordova" */;
 			buildPhases = (
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -264,9 +264,9 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "BConnect";
-			productName = "BConnect";
-			productReference = 1D6058910D05DD3D006BFB54 /* BConnect.app */;
+			name = "BConnectCordova";
+			productName = "BConnectCordova";
+			productReference = 1D6058910D05DD3D006BFB54 /* BConnectCordova.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* BConnect */,
+				1D6058900D05DD3D006BFB54 /* BConnectCordova */,
 			);
 		};
 /* End PBXProject section */
@@ -383,15 +383,15 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BConnect/BConnect-Prefix.pch";
+				GCC_PREFIX_HEADER = "BConnectCordova/BConnectCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "BConnect/BConnect-Info.plist";
+				INFOPLIST_FILE = "BConnectCordova/BConnectCordova-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = "BConnect";
+				PRODUCT_NAME = "BConnectCordovaCordova";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"BConnect/Plugins/cordova-plugin-mfp\"",
+					"\"BConnectCordova/Plugins/cordova-plugin-mfp\"",
 				);
 			};
 			name = Debug;
@@ -407,14 +407,14 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BConnect/BConnect-Prefix.pch";
+				GCC_PREFIX_HEADER = "BConnectCordova/BConnectCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "BConnect/BConnect-Info.plist";
-				PRODUCT_NAME = "BConnect";
+				INFOPLIST_FILE = "BConnectCordova/BConnectCordova-Info.plist";
+				PRODUCT_NAME = "BConnectCordovaCordova";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"BConnect/Plugins/cordova-plugin-mfp\"",
+					"\"BConnectCordova/Plugins/cordova-plugin-mfp\"",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
@@ -443,10 +443,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				PRODUCT_NAME = "BConnect";
+				PRODUCT_NAME = "BConnectCordovaCordova";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"BConnect/Plugins/cordova-plugin-mfp\"",
+					"\"BConnectCordova/Plugins/cordova-plugin-mfp\"",
 				);
 			};
 			name = Debug;
@@ -474,10 +474,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "BConnect";
+				PRODUCT_NAME = "BConnectCordovaCordova";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"BConnect/Plugins/cordova-plugin-mfp\"",
+					"\"BConnectCordova/Plugins/cordova-plugin-mfp\"",
 				);
 			};
 			name = Release;
@@ -485,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BConnect" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BConnectCordova" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -510,7 +510,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CAE0F3A2D4D4B9EB358A419 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
+				2E97D47AE7334C8691D7D1B6 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";
