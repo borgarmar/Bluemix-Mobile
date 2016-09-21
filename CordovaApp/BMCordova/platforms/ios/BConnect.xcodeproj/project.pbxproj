@@ -30,11 +30,11 @@
 		171A0A5A868A4856A7721735 /* libc++.tbd in Resources */ = {isa = PBXBuildFile; fileRef = E79B85DF18B34888A2B97388 /* libc++.tbd */; };
 		50F0C440E407487497B5B78D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD5090D18F64B07AEE2F471 /* Security.framework */; };
 		9D0DAADCCA1B46909FD6935D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A1798996764130AD3E475C /* SystemConfiguration.framework */; };
-		9CF430A2A25445298D16296C /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0EF18CB7049D5A63C0341 /* IBMMobileFirstPlatformFoundation.framework */; };
-		5880E52F24864087A3D1F69A /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0EF18CB7049D5A63C0341 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		059F5053F9D04DBAAC639094 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1069FFCEB64842F4AFE75299 /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
-		FA945F9EB54C4C64A8183C7F /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE668CBAA67E4AC7BD2FA99E /* IBMMobileFirstPlatformFoundationJSONStore.framework */; };
-		F6F44B42D62D4C5297C01C4C /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39891211AB04105B8617623 /* sqlcipher.framework */; };
+		078EB85C70D24C8FBE3CE034 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */; };
+		6CAE0F3A2D4D4B9EB358A419 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4634DFB45DF744A9AAD9F7C9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		9024C2B8D95740ED888B76A6 /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */; };
+		5E8C097D876B422397AC6526 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F92976FE3CE4589B009D221 /* sqlcipher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,10 +93,10 @@
 		E79B85DF18B34888A2B97388 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "libc++.tbd"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2BD5090D18F64B07AEE2F471 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		B0A1798996764130AD3E475C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		25A0EF18CB7049D5A63C0341 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		1069FFCEB64842F4AFE75299 /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		DE668CBAA67E4AC7BD2FA99E /* IBMMobileFirstPlatformFoundationJSONStore.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationJSONStore.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationJSONStore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		A39891211AB04105B8617623 /* sqlcipher.framework */ = {isa = PBXFileReference; name = "sqlcipher.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/sqlcipher.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationJSONStore.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationJSONStore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5F92976FE3CE4589B009D221 /* sqlcipher.framework */ = {isa = PBXFileReference; name = "sqlcipher.framework"; path = "BConnect/Plugins/cordova-plugin-mfp/sqlcipher.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,10 @@
 				171A0A5A868A4856A7721735 /* libc++.tbd in Resources */,
 				50F0C440E407487497B5B78D /* Security.framework in Frameworks */,
 				9D0DAADCCA1B46909FD6935D /* SystemConfiguration.framework in Frameworks */,
-				9CF430A2A25445298D16296C /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
-				059F5053F9D04DBAAC639094 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
-				FA945F9EB54C4C64A8183C7F /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */,
-				F6F44B42D62D4C5297C01C4C /* sqlcipher.framework in Frameworks */,
+				078EB85C70D24C8FBE3CE034 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				4634DFB45DF744A9AAD9F7C9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
+				9024C2B8D95740ED888B76A6 /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */,
+				5E8C097D876B422397AC6526 /* sqlcipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,10 +195,10 @@
 				E79B85DF18B34888A2B97388 /* libc++.tbd */,
 				2BD5090D18F64B07AEE2F471 /* Security.framework */,
 				B0A1798996764130AD3E475C /* SystemConfiguration.framework */,
-				25A0EF18CB7049D5A63C0341 /* IBMMobileFirstPlatformFoundation.framework */,
-				1069FFCEB64842F4AFE75299 /* IBMMobileFirstPlatformFoundationHybrid.framework */,
-				DE668CBAA67E4AC7BD2FA99E /* IBMMobileFirstPlatformFoundationJSONStore.framework */,
-				A39891211AB04105B8617623 /* sqlcipher.framework */,
+				66A3FAD63EC14685820EDDA1 /* IBMMobileFirstPlatformFoundation.framework */,
+				A898D48E28734BE4A4E12AEA /* IBMMobileFirstPlatformFoundationHybrid.framework */,
+				E2096790BAF5423CB05C4C4E /* IBMMobileFirstPlatformFoundationJSONStore.framework */,
+				5F92976FE3CE4589B009D221 /* sqlcipher.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -510,7 +510,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5880E52F24864087A3D1F69A /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
+				6CAE0F3A2D4D4B9EB358A419 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";
