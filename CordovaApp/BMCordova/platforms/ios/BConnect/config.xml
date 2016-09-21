@@ -79,12 +79,12 @@
     <feature name="WLCertificatePinningPlugin">
         <param name="ios-package" value="WLCertificatePinningPlugin" />
     </feature>
-    <name>HelloCordova</name>
+    <name>BConnect</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Aplicación desarrollada utilizando IBM MFP
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="maria.borbones@es.ibm.com" href="http://cordova.io">
+        María Borbonés
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -102,7 +102,7 @@
         </mfp:security>
     </mfp:android>
     <mfp:ios>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>2417110129</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
@@ -131,7 +131,7 @@
     </mfp:windows>
     <mfp:platformVersion>8.0.0.00-20160803-1114</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
-    <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
+    <mfp:server runtime="mfp" url="http://mobilefoundation-businessconnect-li-server.mybluemix.net:80" />
     <mfp:directUpdateAuthenticityPublicKey />
     <mfp:languagePreferences>en</mfp:languagePreferences>
     <allow-intent href="itms:*" />

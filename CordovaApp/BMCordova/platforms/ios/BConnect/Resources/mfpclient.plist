@@ -5,9 +5,9 @@
 	<key>protocol</key>
 	<string>http</string>
 	<key>host</key>
-	<string>10.0.0.1</string>
+	<string>mobilefoundation-businessconnect-li-server.mybluemix.net</string>
 	<key>port</key>
-	<string>9080</string>
+	<string>80</string>
 	<key>wlServerContext</key>
 	<string>/mfp/</string>
 	<key>platformVersion</key>
@@ -19,7 +19,7 @@
 	<key>wlSecureDirectUpdatePublicKey</key>
 	<string></string>
 	<key>buildtime</key>
-	<string>1474448689146</string>
+	<string>1474468030401</string>
 	<key>languagePreferences</key>
 	<string>en</string>
 </dict>
