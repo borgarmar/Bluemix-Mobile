@@ -41,7 +41,7 @@ repositories {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.0'
+    gradleVersion = '2.8'
 }
 
 // Configuration properties. Set these via environment variables, build-extras.gradle, or gradle.properties.
