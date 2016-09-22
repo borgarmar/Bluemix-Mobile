@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:6
+-keep class com.ibm.BConnectCordova.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.ibm.MFPApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.worklight.wlclient.ui.UIActivity { <init>(...); }
+

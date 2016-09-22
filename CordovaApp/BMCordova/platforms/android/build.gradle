@@ -243,6 +243,8 @@ dependencies {
     debugCompile project(path: "CordovaLib", configuration: "debug")
     releaseCompile project(path: "CordovaLib", configuration: "release")
     compile "com.squareup.okhttp:okhttp-urlconnection:2+"
+
+
     // SUB-PROJECT DEPENDENCIES END
 }
 
