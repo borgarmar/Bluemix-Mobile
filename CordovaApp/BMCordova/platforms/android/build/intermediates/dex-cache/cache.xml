@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ctpspain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.7.5/b3ae78e05ff9fdb1788db2056b583281ef684277/okhttp-urlconnection-2.7.5.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="b3ae78e05ff9fdb1788db2056b583281ef684277">
+        <dex dex="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.7.5_c48064c3eb43208825cd545dd5952b0342224237.jar" />
+    </item>
+    <item
+        jar="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="44c80707d7e883ecfa2da87b3b16d76a1697a000">
+        <dex dex="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_ed7954e5c527e4a69a11a70855c48c47501d895f.jar" />
+    </item>
+    <item
+        jar="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/libs/ibmmobilefirstplatformfoundation.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="cf3e59876cdd80fd42207fedcc44b13e53a60ea4">
+        <dex dex="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/pre-dexed/debug/ibmmobilefirstplatformfoundation_d9487e9f55e79b081630a8be98394afa5607e9f6.jar" />
+    </item>
+    <item
+        jar="/Users/ctpspain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/pre-dexed/debug/okhttp-2.7.5_0224b0099098c8d25130fff0a1784b3ab408b3e7.jar" />
+    </item>
+    <item
+        jar="/Users/ctpspain/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/ctpspain/Box-Sync/2016/Business-Connect/Bluemix-Mobile/CordovaApp/BMCordova/platforms/android/build/intermediates/pre-dexed/debug/okio-1.6.0_67dbd7220919e8a68eee557f46c2154b0dbd8dd5.jar" />
+    </item>
+
+</items>
