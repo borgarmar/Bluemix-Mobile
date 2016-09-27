@@ -176,7 +176,7 @@ android {
     }
 
     compileSdkVersion cdvCompileSdkVersion
-    buildToolsVersion cdvBuildToolsVersion
+    buildToolsVersion '24.0.1'
 
     if (Boolean.valueOf(cdvBuildMultipleApks)) {
         productFlavors {
