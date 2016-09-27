@@ -40,7 +40,7 @@ ext {
 
 android {
     compileSdkVersion cdvCompileSdkVersion
-    buildToolsVersion '24.0.2'
+    buildToolsVersion cdvBuildToolsVersion
     publishNonDefault true
 
     compileOptions {
