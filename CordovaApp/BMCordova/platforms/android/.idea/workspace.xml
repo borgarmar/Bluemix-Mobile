@@ -129,12 +129,12 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value=":CordovaLib" />
-                <option name="path" value="$PROJECT_DIR$/CordovaLib" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value="android" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":CordovaLib" />
+                <option name="path" value="$PROJECT_DIR$/CordovaLib" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -1870,10 +1870,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/2016/Marzo/eot/Authentication" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Documents/android-sdk-macosx" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RunManager" selected="Android Application.android">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
