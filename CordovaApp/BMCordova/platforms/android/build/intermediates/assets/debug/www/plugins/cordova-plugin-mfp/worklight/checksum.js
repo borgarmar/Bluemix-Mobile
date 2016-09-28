@@ -1,0 +1,1 @@
+var WL_CHECKSUM = {"checksum":0,"date":1475068018801,"machine":"MacBook-Pro-de-ctpspain.local"}
