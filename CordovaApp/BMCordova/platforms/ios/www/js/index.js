@@ -2,8 +2,6 @@ function wlCommonInit() {
 
 }
 
-
-
 var app = {
     // Application Constructor
     initialize: function() {
