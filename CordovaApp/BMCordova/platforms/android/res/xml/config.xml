@@ -10,6 +10,10 @@
     <feature name="Globalization">
         <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
     </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="OkHttpPlugin">
         <param name="android-package" value="com.google.cordova.OkHttpPlugin" />
         <param name="onload" value="true" />
@@ -66,10 +70,6 @@
     <feature name="WLCertificatePinningPlugin">
         <param name="android-package" value="com.worklight.androidgap.plugin.WLCertificatePinningPlugin" />
     </feature>
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
     <allow-intent href="market:*" />
     <name>HelloCordova</name>
     <description>
@@ -94,7 +94,7 @@
         </mfp:security>
     </mfp:android>
     <mfp:ios>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>2417110129</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
